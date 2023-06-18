@@ -79,17 +79,17 @@
     align-content: center;
 }
 
-.title-holder{
+.page-top div.title-holder{
     margin-left: 5vh;
     width: 50%;
     min-height: 75vh;
 }
-.title-holder h1{
+.page-top div.title-holder h1{
     margin: 4vh;
     font-size: 140px;
     font-family: "Outfit-Black" ,sans-serif;
 }
-.title-holder p{
+.page-top div.title-holder p{
     margin: 4vh;
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
@@ -110,17 +110,16 @@
 
 .modelvw-bg{
     background: rgb(248, 248, 248);
-    border-radius: 37% 63% 38% 62% / 51% 43% 57% 49% ;
+    border-radius: 100vh;
+    box-shadow: 0px 10px 8px #888888;
     display: flex;
 
-    width: 80%;
-    min-height: 80vh;
+    width: 70%;
+    min-height: 70vh;
 
     justify-content: center;
     align-items: center;
     align-content: center;
-
-    box-shadow: 0px 10px 8px #888888;
 }
 
 
@@ -143,8 +142,6 @@ model-viewer {
 .page-mid{
 
     display: flex;
-
-    border: 1px solid rgb(255, 0, 0);
     width: 100%;
     min-height: 100vh;
     float: left;
@@ -152,4 +149,57 @@ model-viewer {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+
+.page-mid div.title-holder{
+    display: grid;
+
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 50%;
+    min-height: 75vh;
+
+    margin: 5vh;
+}
+.page-mid div.title-holder h1{
+    margin: 4vh;
+    font-size: 140px;
+    font-family: "Outfit-Black" ,sans-serif;
+}
+.page-mid div.title-holder p{
+    margin: 4vh;
+    font-size: 20px;
+    font-family: "Outfit-Medium" ,sans-serif;
+}
+
+
+
+.page-mid div.img-holder{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    width: 50%;
+    min-height: 90vh;
+
+;
+}
+.page-mid div.img-holder div.img {
+    background-image: url(Assets/Images/BG.jpg);
+    background-position: center;
+    background-size: 100vh;
+
+    width: 80%;
+    min-height: 80vh;
+
+    border-radius:41% 59% 31% 69% / 64% 36% 64% 36%;
+
+    box-shadow: 0px 10px 8px #888888;
+
 }
