@@ -7,14 +7,18 @@
     src: url(Assets/Font/Outfit-Medium.ttf);
 }
 
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
 *{
     margin: 0%;
 }
 
 
 .container{
-
-
     width: 100%;
     min-height: 200vh;
 }
@@ -67,7 +71,6 @@
 
 /* Page Top*/
 .page-top{
-
     display: flex;
 
     width: 100%;
@@ -140,7 +143,6 @@ model-viewer {
 /* Page Mid*/
 
 .page-mid{
-
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -187,8 +189,6 @@ model-viewer {
 
     width: 50%;
     min-height: 90vh;
-
-;
 }
 .page-mid div.img-holder div.img {
     background-image: url(Assets/Images/BG.jpg);
@@ -203,3 +203,62 @@ model-viewer {
     box-shadow: 0px 10px 8px #888888;
 
 }
+
+
+
+/* Footer */
+.footer{
+    padding-top: 40vh;
+    display: flex;
+    
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+
+    width: 100%;
+    min-height: 10vh;
+
+    border: 3px solid rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-family: "Outfit-Medium" ,sans-serif;
+
+    
+}
+.footer div.title-holder{
+    border-top: 1px solid black;
+    align-items: center;
+    align-items: center;
+    align-items: center;
+    text-align:center;
+
+    display: flex;
+    float: left;
+}
+.footer div.title-holder p{
+    
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+
+.footer div.title-holder a{
+    text-decoration: none;
+}
+a:link {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 123, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }
