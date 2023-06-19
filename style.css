@@ -21,11 +21,18 @@
 .container{
     width: 100%;
     min-height: 200vh;
+
+    color: #FFD369;
 }
 
 /* Nav Bar */
 
 .nav-bar{
+    
+
+    background-color: #222831;
+    border-bottom: 1px solid #EEEEEE;;
+
     display:flex;
 
     justify-content: center;
@@ -37,6 +44,7 @@
     min-height: 6vh;
 }
 .nav-bar button{
+    color: #EEEEEE;
     transition: 0.3s;
 
     margin-left: 15vh;
@@ -58,6 +66,8 @@
 
     cursor:pointer;
 
+    color: #FFD369;
+
     background-color: transparent;
     border: 0px solid transparent;
     border-radius: 2vh;
@@ -71,6 +81,7 @@
 
 /* Page Top*/
 .page-top{
+    background-color: #222831;
     display: flex;
 
     width: 100%;
@@ -93,6 +104,7 @@
     font-family: "Outfit-Black" ,sans-serif;
 }
 .page-top div.title-holder p{
+    color: #EEEEEE;
     margin: 4vh;
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
@@ -112,9 +124,9 @@
 }
 
 .modelvw-bg{
-    background: rgb(248, 248, 248);
+    background: #222831;;
     border-radius: 100vh;
-    box-shadow: 0px 10px 8px #888888;
+    box-shadow: 0px 0px 8px #ffffff;
     display: flex;
 
     width: 70%;
@@ -143,6 +155,7 @@ model-viewer {
 /* Page Mid*/
 
 .page-mid{
+    background-color: #222831;
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -173,6 +186,7 @@ model-viewer {
     font-family: "Outfit-Black" ,sans-serif;
 }
 .page-mid div.title-holder p{
+    color: #EEEEEE;
     margin: 4vh;
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
@@ -198,9 +212,9 @@ model-viewer {
     width: 80%;
     min-height: 80vh;
 
-    border-radius:41% 59% 31% 69% / 64% 36% 64% 36%;
+    border-radius:40% 75% 40% 75% / 75% 40% 75% 40% ;
 
-    box-shadow: 0px 10px 8px #888888;
+    box-shadow: 0px 0px 8px #ffffff;
 
 }
 
