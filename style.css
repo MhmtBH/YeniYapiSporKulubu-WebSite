@@ -21,8 +21,6 @@
 .container{
     width: 100%;
     min-height: 200vh;
-
-    color: #FFD369;
 }
 
 /* Nav Bar */
@@ -31,7 +29,7 @@
     
 
     background-color: #222831;
-    border-bottom: 1px solid #EEEEEE;;
+    border-bottom: 1px solid white;;
 
     display:flex;
 
@@ -44,7 +42,7 @@
     min-height: 6vh;
 }
 .nav-bar button{
-    color: #EEEEEE;
+    color: white;
     transition: 0.3s;
 
     margin-left: 15vh;
@@ -99,12 +97,14 @@
     min-height: 75vh;
 }
 .page-top div.title-holder h1{
+    color: #FFD369;
+
     margin: 4vh;
     font-size: 140px;
     font-family: "Outfit-Black" ,sans-serif;
 }
 .page-top div.title-holder p{
-    color: #EEEEEE;
+    color: white;
     margin: 4vh;
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
@@ -126,11 +126,11 @@
 .modelvw-bg{
     background: #222831;;
     border-radius: 100vh;
-    box-shadow: 0px 0px 8px #ffffff;
+    box-shadow: 0px 0px 8px white;
     display: flex;
 
-    width: 70%;
-    min-height: 70vh;
+    width: 50%;
+    min-height: 50vh;
 
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ model-viewer {
     display: flex;
 
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
     background-color: transparent;
 
 
@@ -181,12 +181,13 @@ model-viewer {
     margin: 5vh;
 }
 .page-mid div.title-holder h1{
+    color: #FFD369;
     margin: 4vh;
     font-size: 140px;
     font-family: "Outfit-Black" ,sans-serif;
 }
 .page-mid div.title-holder p{
-    color: #EEEEEE;
+    color: white;
     margin: 4vh;
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
@@ -209,12 +210,12 @@ model-viewer {
     background-position: center;
     background-size: 100vh;
 
-    width: 80%;
-    min-height: 80vh;
+    width: 70%;
+    min-height: 70vh;
 
     border-radius:40% 75% 40% 75% / 75% 40% 75% 40% ;
 
-    box-shadow: 0px 0px 8px #ffffff;
+    box-shadow: 0px 0px 8px white;
 
 }
 
@@ -222,7 +223,11 @@ model-viewer {
 
 /* Footer */
 .footer{
-    padding-top: 40vh;
+    border-top: 1px solid white;;
+
+    background-color: #222831;
+
+    padding-top: 0vh;
     display: flex;
     
     justify-content: end;
@@ -232,44 +237,46 @@ model-viewer {
     width: 100%;
     min-height: 10vh;
 
-    border: 3px solid rgb(255, 255, 255);
-
     font-size: 20px;
     font-family: "Outfit-Medium" ,sans-serif;
 
     
 }
 .footer div.title-holder{
-    border-top: 1px solid black;
+
+
+    
+
     align-items: center;
-    align-items: center;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
     text-align:center;
 
     display: flex;
     float: left;
 }
 .footer div.title-holder p{
-    
     margin-left: 30vh;
     margin-right: 30vh;
+    color: white;
 }
 
 .footer div.title-holder a{
+
     text-decoration: none;
 }
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   /* visited link */
   a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(255, 123, 0);
+    color: #FFD369;
   }
   
   /* selected link */
