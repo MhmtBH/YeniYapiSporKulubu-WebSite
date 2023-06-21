@@ -106,14 +106,16 @@
     align-content: center;
 }
 .column{
-    border: 2px solid white;
+    padding: 2vh;
+
     display: grid;
 
     width: 60vh;
     min-height: 100vh;
 }
 .column img{
-    border: 2px solid white;
+    padding-top:2vh;
+    padding-bottom:2vh;
     width: 60vh;
     height: max-content;
 }
